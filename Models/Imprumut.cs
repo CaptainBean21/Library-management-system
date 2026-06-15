@@ -31,16 +31,6 @@ namespace ProiectMSOA.Models
                     return "Platit";
 
                 return "Intarziat";
-
-                //if (!DataReturnare.HasValue && DateTime.Now.Date <= DataScadenta.Date)
-                //    return "Activ";
-                //else if (DateTime.Now.Date <= DataScadenta.Date)
-                //    return "Returnat";
-
-                //if (DataReturnare.HasValue && Platit)
-                //    return "Plătit";
-
-                //return "Întârziat";
             }
         }
         public decimal Penalizare
