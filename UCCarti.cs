@@ -23,7 +23,7 @@ namespace ProiectMSOA
             cboxFiltrare.DataSource = Enum.GetValues(typeof(Criterii));
             CititorLogat = cititorLogat;
             gbox.Visible = false;
-            //dtpDataRez.MinDate = DateTime.Today.AddDays(1);
+            dtpDataRez.MinDate = DateTime.Today.AddDays(1);
             ActualizeazaListaCarti();
         }
 
